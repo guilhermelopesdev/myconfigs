@@ -1,0 +1,54 @@
+{
+    "files.autoSave": "afterDelay",
+    "vscode_custom_css.imports": [
+        "file:///Users/guilhermelopes/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.4/dist/updateHandler.js"
+    ],
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "animations.Enabled": true,
+    "animations.Install-Method": "Custom CSS and JS",
+    "apc.imports": [],
+    "window.commandCenter": false,
+    "workbench.sideBar.location": "right",
+    "editor.minimap.enabled": false,
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "catppuccin-mocha",
+    "terminal.integrated.defaultProfile.osx": "fish",
+    "terminal.integrated.fontFamily": "Maple Mono",
+    "editor.fontFamily": "Maple Mono",
+    "terminal.integrated.profiles.osx": {
+        "fish": {
+            "path": "/opt/homebrew/bin/fish"
+        }
+    },
+    "editor.tokenColorCustomizations": {
+    "textMateRules": [
+        {
+            // if, else, else if, etc
+            "scope": "keyword.control",
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },
+        {
+            // Functions
+            "scope": "storage.type.function",
+            "settings": {
+                "fontStyle": "italic"
+            }
+        }
+        {
+            // HTML Attributes (e.g., class, id, etc.)
+            "scope": "entity.other.attribute-name.html",
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },
+        {
+            // CSS Selectors (e.g., class, id, tag names in CSS)
+            "scope": "entity.name.tag.css",
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },
+    ]
+}
