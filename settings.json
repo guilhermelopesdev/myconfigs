@@ -15,6 +15,7 @@
     "terminal.integrated.defaultProfile.osx": "fish",
     "terminal.integrated.fontFamily": "Maple Mono",
     "editor.fontFamily": "Maple Mono",
+    "editor.fontLigatures": true,
     "terminal.integrated.profiles.osx": {
         "fish": {
             "path": "/opt/homebrew/bin/fish"
